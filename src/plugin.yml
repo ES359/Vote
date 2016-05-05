@@ -1,0 +1,12 @@
+name: Vote
+main: me.ES359.Vote.Main
+version: 2.0
+description: Votifier Listener for servers.
+depends: [Votifier]
+softdepend: [Vault]
+website: https://www.spigotmc.org/resources/vote-votifier-listener-beta.15240/
+author: __ES
+
+commands:
+  vote:
+    description: Main command for Vote plugin.
