@@ -60,8 +60,8 @@ public class VoteEvent extends VoterUtils implements Listener
         message = message.replace("%timestamp%",v.getTimeStamp());
         message = message.replace("%address%",v.getAddress());
         List<String> commands = main.getConfig().getStringList("Commands");
-
         String informer = color(main.getConfig().getString("Inform-msg"));
+        sendCommands(commands,p,informer);
 
         if(p == null)
         {
@@ -78,8 +78,6 @@ public class VoteEvent extends VoterUtils implements Listener
                inform = inform.replace("%name%",p.getName());
                if(r.transactionSuccess()) {
                    p.sendMessage(color(inform));
-
-                   sendCommands(commands,p,informer);
 
 //                   sendCommands("give %player% 20 1",p, "&aCommands have been sent!");
                } else {
