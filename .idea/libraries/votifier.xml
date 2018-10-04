@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="votifier">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/Bukkit1/plugins/votifier.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Resources/votifier.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
