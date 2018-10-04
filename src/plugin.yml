@@ -5,7 +5,7 @@ description: Votifier Listener for servers.
 depends: [Votifier]
 softdepend: [Vault]
 website: https://www.spigotmc.org/resources/vote-votifier-listener-beta.15240/
-author: __ES
+author: Signifies
 
 commands:
   vote:
